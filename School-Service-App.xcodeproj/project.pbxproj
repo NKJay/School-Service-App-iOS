@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		E9E7031C1DEBD9E000F5C042 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E7031B1DEBD9E000F5C042 /* AppDelegate.swift */; };
 		E9E7031E1DEBD9E000F5C042 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E7031D1DEBD9E000F5C042 /* ViewController.swift */; };
-		E9E703211DEBD9E000F5C042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E7031F1DEBD9E000F5C042 /* Main.storyboard */; };
 		E9E703241DEBD9E000F5C042 /* School_Service_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9E703221DEBD9E000F5C042 /* School_Service_App.xcdatamodeld */; };
 		E9E703261DEBD9E000F5C042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E703251DEBD9E000F5C042 /* Assets.xcassets */; };
 		E9E703291DEBD9E000F5C042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9E703271DEBD9E000F5C042 /* LaunchScreen.storyboard */; };
 		E9E703341DEBD9E000F5C042 /* School_Service_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E703331DEBD9E000F5C042 /* School_Service_AppTests.swift */; };
 		E9E7033F1DEBD9E000F5C042 /* School_Service_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E7033E1DEBD9E000F5C042 /* School_Service_AppUITests.swift */; };
+		E9E703551DEC0DFA00F5C042 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E703531DEC0DFA00F5C042 /* MainViewController.swift */; };
+		E9E703561DEC0DFA00F5C042 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E703541DEC0DFA00F5C042 /* MenuViewController.swift */; };
+		E9E703591DEC0E4000F5C042 /* +UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E703581DEC0E4000F5C042 /* +UIBarButtonItem.swift */; };
+		E9E7035B1DEC250300F5C042 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E7035A1DEC250300F5C042 /* MainView.swift */; };
+		E9E7035E1DEC277600F5C042 /* classCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E7035D1DEC277600F5C042 /* classCell.swift */; };
+		E9E703601DEC279600F5C042 /* ClassCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9E7035F1DEC279600F5C042 /* ClassCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,6 @@
 		E9E703181DEBD9E000F5C042 /* School-Service-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "School-Service-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E7031B1DEBD9E000F5C042 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9E7031D1DEBD9E000F5C042 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E9E703201DEBD9E000F5C042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9E703231DEBD9E000F5C042 /* School_Service_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = School_Service_App.xcdatamodel; sourceTree = "<group>"; };
 		E9E703251DEBD9E000F5C042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9E703281DEBD9E000F5C042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		E9E7033A1DEBD9E000F5C042 /* School-Service-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "School-Service-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E7033E1DEBD9E000F5C042 /* School_Service_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School_Service_AppUITests.swift; sourceTree = "<group>"; };
 		E9E703401DEBD9E000F5C042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E703531DEC0DFA00F5C042 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E9E703541DEC0DFA00F5C042 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E9E703581DEC0E4000F5C042 /* +UIBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "+UIBarButtonItem.swift"; sourceTree = "<group>"; };
+		E9E7035A1DEC250300F5C042 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E9E7035D1DEC277600F5C042 /* classCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = classCell.swift; sourceTree = "<group>"; };
+		E9E7035F1DEC279600F5C042 /* ClassCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +109,11 @@
 		E9E7031A1DEBD9E000F5C042 /* School-Service-App */ = {
 			isa = PBXGroup;
 			children = (
+				E9E703571DEC0E2600F5C042 /* Catagory */,
+				E9E703511DEC0DFA00F5C042 /* CunstomView */,
+				E9E703521DEC0DFA00F5C042 /* Main */,
 				E9E7031B1DEBD9E000F5C042 /* AppDelegate.swift */,
 				E9E7031D1DEBD9E000F5C042 /* ViewController.swift */,
-				E9E7031F1DEBD9E000F5C042 /* Main.storyboard */,
 				E9E703251DEBD9E000F5C042 /* Assets.xcassets */,
 				E9E703271DEBD9E000F5C042 /* LaunchScreen.storyboard */,
 				E9E7032A1DEBD9E000F5C042 /* Info.plist */,
@@ -126,6 +138,41 @@
 				E9E703401DEBD9E000F5C042 /* Info.plist */,
 			);
 			path = "School-Service-AppUITests";
+			sourceTree = "<group>";
+		};
+		E9E703511DEC0DFA00F5C042 /* CunstomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CunstomView;
+			sourceTree = "<group>";
+		};
+		E9E703521DEC0DFA00F5C042 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E9E7035C1DEC275C00F5C042 /* CustomView */,
+				E9E703531DEC0DFA00F5C042 /* MainViewController.swift */,
+				E9E703541DEC0DFA00F5C042 /* MenuViewController.swift */,
+				E9E7035A1DEC250300F5C042 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E9E703571DEC0E2600F5C042 /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+				E9E703581DEC0E4000F5C042 /* +UIBarButtonItem.swift */,
+			);
+			path = Catagory;
+			sourceTree = "<group>";
+		};
+		E9E7035C1DEC275C00F5C042 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				E9E7035D1DEC277600F5C042 /* classCell.swift */,
+				E9E7035F1DEC279600F5C042 /* ClassCell.xib */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9E703291DEBD9E000F5C042 /* LaunchScreen.storyboard in Resources */,
+				E9E703601DEC279600F5C042 /* ClassCell.xib in Resources */,
 				E9E703261DEBD9E000F5C042 /* Assets.xcassets in Resources */,
-				E9E703211DEBD9E000F5C042 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +309,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9E7035E1DEC277600F5C042 /* classCell.swift in Sources */,
+				E9E703591DEC0E4000F5C042 /* +UIBarButtonItem.swift in Sources */,
+				E9E7035B1DEC250300F5C042 /* MainView.swift in Sources */,
 				E9E7031E1DEBD9E000F5C042 /* ViewController.swift in Sources */,
+				E9E703561DEC0DFA00F5C042 /* MenuViewController.swift in Sources */,
 				E9E703241DEBD9E000F5C042 /* School_Service_App.xcdatamodeld in Sources */,
 				E9E7031C1DEBD9E000F5C042 /* AppDelegate.swift in Sources */,
+				E9E703551DEC0DFA00F5C042 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +352,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E9E7031F1DEBD9E000F5C042 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E9E703201DEBD9E000F5C042 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E9E703271DEBD9E000F5C042 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "School-Service-App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "u30.tech.School-Service-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +472,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "School-Service-App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "u30.tech.School-Service-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
